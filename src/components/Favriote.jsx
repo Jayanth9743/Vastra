@@ -33,12 +33,12 @@ const Favriote = () => {
         key={info.id}>
           <div  className="relative w-10/12 mx-auto bg-white h-3/5 ">
             <img src={info.image} alt="" className="object-cover max-w-full max-h-full mx-auto my-auto "/>
-            {hoveredItem === info.id && <Link className="absolute top-0 p-1 mx-auto ml-24 text-xl text-center bg-gray-300 rounded-md mt-28" to={`/product/${info.id}`}>view</Link>}
+            {hoveredItem === info.id && <Link className="absolute top-0 w-16 p-1 ml-24 text-lg text-center text-white bg-blue-500 rounded-md mt-28" to={`/product/${info.id}`}>view</Link>}
           </div>
           <p className="text-lg ml-7">{info.title.slice(0,40)}...</p>
           <div className="flex items-center justify-around w-full">
             <p  className="text-blue-600 ml-7">${info.price}</p>
-            <button className="p-1 text-white bg-blue-500 rounded-md " onClick={()=>dispatch(removeFromFavorites(info))}>remove</button>
+            <button className="p-2 text-white bg-blue-500 rounded-md " onClick={()=>dispatch(removeFromFavorites(info))}>remove</button>
           </div>
           {hoveredItem === info.id && <BsBagPlus className="absolute top-0 m-3 text-lg transition-all duration-200 ease-in-out cursor-pointer hover:scale-110" onClick={()=>dispatch(AddBag(info))}/>}
         </div>

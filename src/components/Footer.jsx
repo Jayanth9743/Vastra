@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex flex-col items-center w-full gap-4 justify-evenly md:w-1/4">
                 <p className="text-3xl md:text-2xl">say your suggestions</p>
                 <input type="text" placeholder="suggestions" className="w-56 p-3 text-black rounded-md outline-none md:p-2" />
-                <div className="w-16 p-2 text-center bg-blue-600 rounded-md hover:scale-110 md:p-1 ">button</div>
+                <div className="w-16 p-2 text-center bg-blue-500 rounded-md cursor-pointer hover:scale-110 md:p-1 ">Submit</div>
             </div>
         </div>
         <p className="mb-20 text-lg md:mb-0">2024 © Developed By Jayanth P</p>
