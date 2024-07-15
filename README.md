@@ -1,6 +1,6 @@
-# Vibhaa-Ecommerce-Website
+# Vastra-Ecommerce-Website
 
-Welcome to Vibhaa, our fully responsive e-commerce clothing website. This project is crafted with ReactJS and styled with Tailwind CSS to deliver a smooth shopping experience across all devices.
+Welcome to Vastra, our fully responsive e-commerce clothing website. This project is crafted with ReactJS and styled with Tailwind CSS to deliver a smooth shopping experience across all devices.
 
 ## Features
 
